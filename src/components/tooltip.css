@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+  width: 100vw;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 5rem;
+  border: 2px dotted rgba(0, 255, 255, 0.65);
+  cursor: pointer;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 5rem;
+  border: 2px dotted rgba(0, 100, 255, 0.65);
+  cursor: pointer;
+}
+
+.tooltip {
+  display: flex;
+  padding: 0.5rem;
+  background-color: rgba(24, 28, 32, 0.95);
+  color: rgba(245, 245, 245, 0.875);
+  border-radius: 10px;
+  font-size: 0.75rem;
+  letter-spacing: 0.02rem;
+}
